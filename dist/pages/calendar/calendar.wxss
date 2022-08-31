@@ -1,0 +1,46 @@
+.index-wrapper {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.index-scroll__wrapper {
+  height: calc(100vh - 270rpx);
+}
+.app-header {
+  height: 80rpx;
+  width: 100vw;
+  background: #fafafa;
+  -webkit-box-shadow: 0 0 0 2rpx red;
+          box-shadow: 0 0 0 2rpx red;
+  float: left;
+}
+.app-footer {
+  height: 10vh;
+  width: 100vw;
+  background: #ffffff;
+  float: left;
+}
+.app-body {
+  height: 92vh;
+  width: 100vw;
+  background: #ffffff;
+  float: left;
+  overflow-y: scroll;
+}
+.button-holder {
+  height: auto;
+  width: 100vw;
+}
+.centered-position {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
